@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Конвертер длины</title>
+</head>
+<body>
+  <label for="amount">Количество:</label>
+  <input type="number" id="amount">
+
+  <label for="fromUnit">Из какой единицы:</label>
+  <select id="fromUnit">
+    <option value="MM">Миллиметры</option>
+    <option value="CM">Сантиметры</option>
+    <option value="DM">Дециметры</option>
+    <option value="M">Метры</option>
+    <option value="KM">Километры</option>
+  </select>
+
+  <button id="switchBtn">поменять</button>
+
+  <label for="toUnit">В какую единицу:</label>
+  <select id="toUnit">
+    <option value="MM">Миллиметры</option>
+    <option value="CM">Сантиметры</option>
+    <option value="DM">Дециметры</option>
+    <option value="M">Метры</option>
+    <option value="KM">Километры</option>
+  </select>
+
+  <button id="convert">Перевести</button>
+
+  <p id="result"></p>
+
+  <script src="index2.js"></script>
+</body>
+</html>
